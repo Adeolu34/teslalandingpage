@@ -1,0 +1,238 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: transparent;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav ul{
+  display: flex;
+  gap: 2em;
+}
+nav ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 7px;
+  border-radius: 5px;
+}
+nav ul li:hover{
+  background-color: #22222209;
+}
+.announce{
+  width: 100vw;
+  background-color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  height: 20px;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+.hero-content{
+  margin-top: 6em;
+  text-align: center;  
+}
+.hero-content h2{
+  font-size: 50px;
+  font-weight: 500;
+}
+.hero-content p{
+  font-size: 16px;
+  font-weight: 400;
+}
+button{
+  padding: 10px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: solid 2px #fff;
+  margin-top: 32.4em;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Main styles */
+main {
+  padding: 20px;
+}
+.menu{
+  position: fixed;
+}
+.hero {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  color: #222;
+  background-color: transparent;
+  padding: 0 1rem;
+  
+}
+
+.hero-container{
+  background-image: url('/image/Model-S-homepage-desktop.avif');
+  background-size: auto;
+  background-position: center;  
+  color: #fff;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 5em;
+}
+
+.hero h1 {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  z-index: 1000;
+}
+.cta ul{
+  display: flex;
+  gap: 1em;
+}
+.cta ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.cta ul li:hover{
+  background-color: #22222209;
+}
+/* Footer styles */
+footer {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  padding-bottom: 7rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links ul{
+  display: flex;
+  gap: 2em;
+}
+.footer-links ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.footer-links ul li:hover{
+  background-color: #22222209;
+}
+
+/* tesla second content */
+.tesla-large{
+  background-image: url(/image/Homepage-Model-X-Desktop-LHD.avif);
+  background-size:cover;
+  padding-bottom: 5em;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.tesla-large .btn{
+  display: flex;
+  gap: 2rem;
+  margin-top: 7em;
+  
+}
+p a {
+  text-decoration: underline;
+  color: black;
+}
+.order{
+  background-color: rgba(23, 26, 32, 0.8);
+  border: none;
+  border-radius: 5px;
+  color: rgba(244, 244, 244, 244);
+  font-weight: bold;
+
+}
+.demo{
+  background-color: rgba(244, 244, 244, 0.65);
+  border: none;
+  border-radius: 5px;
+  color: rgba(23, 26, 32, 0.8);
+  font-weight: bold;
+}
+.two{
+  background-image: url(/image/Homepage-Model-3-Desktop-LHD.avif);
+  background-size: cover;
+  padding-bottom: 2em;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.three{
+  background-image: url(/image/Homepage-Model-Y-Global-Desktop.avif);
+  background-size: cover;
+  padding-bottom: 2em;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.four{
+  background-image: url(/image/425_HP_SolarPanels_D.avif);
+  background-size: cover;
+  padding-bottom: 2em;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.five{
+  background-image: url(/image/Homepage-SolarRoof-Desktop-Global.avif);
+  background-size: cover;
+  padding-bottom: 2em;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.six{
+  background-image: url(/image/Desktop_Accessories.avif);
+  background-size: cover;
+  padding-bottom: 2em;
+  height: 100vh;
+  overflow-y: hidden;
+}
